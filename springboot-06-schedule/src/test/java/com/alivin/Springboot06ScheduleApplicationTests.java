@@ -1,0 +1,14 @@
+package com.alivin;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class Springboot06ScheduleApplicationTests {
+
+    @Test
+    void contextLoads() {
+
+    }
+
+}

@@ -1,0 +1,33 @@
+# debug = true 可查看哪些自动配置类生效
+person:
+  name: fer
+  age: 18
+  happy: true
+  birth: 2000/08/10
+  maps:
+    k1: v1
+    k2: v2
+  lists:
+    - code
+    - music
+    - shopping
+  cat:
+    name: 嘟嘟嘟
+    age: 5
+
+# 配置多套环境
+spring:
+  profiles:
+    active: dev
+
+---
+server:
+  port: 8081
+spring:
+  profiles: dev
+
+---
+server:
+  port: 8082
+spring:
+  profiles: test
